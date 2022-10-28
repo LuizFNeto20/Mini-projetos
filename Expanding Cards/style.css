@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s ease-in 0.2s;
+}
+
+.Div-main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cards {
+    width: 6%;
+    height: 80%;
+    border-radius: 34px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    transition: .7s ease-in;
+}
+
+.size {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-tip1 {
+    margin-left: 6%;
+    background-image: url(imagens/a3d495ecbe50168c35b296cce293fc5596354bbe.jpg);
+}
+
+.div-center1 {
+    background-image: url(imagens/abre-1642085201491_v2_1920x1280.jpg);
+}
+
+.div-center2 {
+    background-image: url(imagens/morar-em-santa-catarina.jpg);
+}
+
+.div-center3 {
+    background-image: url(imagens/rio-amazonas-20060602-031.jpg);
+}
+
+.div-tip2 {
+    margin-right: 6%;
+    background-image: url(imagens/thumb-1920-116324.jpg);
+}
+
+.expand {
+    width: 57%;
+}
+
+.expand h3{
+    opacity: 1;
+}
